@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html>
+  <style>
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Merriweather');
+
+
+body {
+  background-color: darkgray;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+#encabezado {  
+  display: block;
+  width: 100%;
+  z-index: 1;
+  top: 0;
+  background-color: gray;
+  padding: 20px;
+  margin-left: -10px;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+#navbar {
+  width: 30%;
+  background-color: lightgray;
+}
+
+#secciones {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2em;
+  padding: 20px;
+}
+
+nav ul {
+  position: sticky;
+  top: 20px;
+}
+
+ul a {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5em;
+  text-decoration: none;
+  margin: 10px auto 10px 20px;
+  display: block;
+}
+
+li {
+  list-style: none;
+}
+
+#main-doc {
+  display: flex;
+  font-family: 'Merriweather', serif;
+  flex-direction: column;
+  line-height: 1.6;
+  padding: 10px;  
+  width: 70%;
+}
+
+.main-section > * {
+  padding: 10px;
+  flex: 1 100%;
+}
+
+.titulo {
+  font-size: 2em;
+}
+
+
+.centraMe {
+  text-align: center;
+  display: block;
+  margin: auto;
+}
+
+code, iframe, #link1, #link2, #link3, #link4, #link5, #link6, #link7, #link8, #link9,#link10 {
+  display: block;
+}
+
+code {
+  margin: 20px 5%;
+  font-size: 1.5em;
+  line-height: 1.2;
+  background-color: silver;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.creditos {
+  font-size: 12px;
+  margin-left: auto;
+}
+
+@media screen and (min-width: 1301px) {
+  #navbar {
+    width: 380px;
+  }
+}
+
+@media screen and (max-width: 682px) {
+  
+  .container {
+  display: flex;
+  flex-direction: column;
+}
+  
+  #navbar {
+  width: 100%;
+  background-color: lightgray;
+  text-align: center;
+  padding-bottom: 20px;
+}
+  
+  #main-doc {
+    font-family: 'Merriweather', serif;
+    line-height: 1.6; 
+    width: 96%;
+}
+  .main-section p {
+    text-align: justify;
+  }
+  
+  #secciones {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2em;
+  margin: auto;
+}
+  
+  ul li {
+    width: 100%;
+    margin-left: -10px;
+  }
+}
+</style>
+<body>
+<header id="encabezado">
+  <h2>Trabajo Final</h2>
+  <h1>Problemática Universitaria</h1>
+</header>
+
+<div class="container">
+  <nav id="navbar">
+    <header id="secciones">Secciones</header>
+    <ul>
+      <li><a class="nav-link" href="#Introducción">Introducción</a></li>
+      <li><a class="nav-link" href="#Laicidad">Laicidad</a></li>
+      <li><a class="nav-link"  href="#Autonomía">Autonomía</a></li>
+      <li><a class="nav-link"  href="#Cogobierno">Cogobierno</a></li>
+      <li><a class="nav-link" href="#Libertad_de_Cátedra">Libertad de Cátedra</a></li>
+      <li><a class="nav-link" href="#Extensión_y_Ayuda_Social">Extensión y Ayuda Social</a></li>
+      <li><a class="nav-link" href="#Extras">Extras</a></li>
+      <li><a class="nav-link" href="#Bibliografía">Bibliografía</a></li>
+    </ul>    
+  </nav>
+  
+  <main id="main-doc">
+    <section class="main-section" id="Introducción">
+      <header class="titulo">Introducción</header>
+      <h3>¿Por qué debería apoyar la reforma universitaria?</h3>
+      <p>Hay muchas razones. La Reforma busca trabajar para mejorar varios aspectos de la Universidad. Se podría decir que busca romper con el <i>statu quo:</i>  el estado actual político, social y ético de la Universidad.<br>
+    Podemos ampliar sobre estas razones planteándolo en diferentes puntos, entre ellos:
+        <li>Laicidad</li>
+        <li>Autonomía</li>
+        <li>Cogobierno</li>
+        <li>Libertad de Cátedra</li>
+        <li>Extensión y Ayuda Social</li>
+      </p>
+    </section>
+    
+    <section class="main-section" id="Laicidad">
+      <header class="titulo">Laicidad</header>
+      <h3>¿La Reforma Universitaria no va en contra de la Iglesia, de nuestra fe?</h3>
+      <p>Claro que no. La reforma aboga por la laicidad en las universidades. Esto es, separar totalmente a la Iglesia de la Universidad, que no tenga influencia sobre la misma en ningún aspecto.<br>
+        Esto naturalmente suena como algo que va en contra de la Iglesia y de la fe, pero en realidad va solamente en contra del poder de la Iglesia sobre la Universidad. Nadie te va a quitar el derecho a profesar tu propia religión, al contrario, se busca que todos podamos profesar la que queramos, pero siempre respetando la de los demás.<br>
+        Consideramos que la universidad actual no da lugar a las personas que pertenecen a otras religiones, ni a los que no profesan ninguna. La universidad debería ser para todos, no sólo para los católicos.<br>
+        Hasta ahora, el clero ha decidido sobre lo que estudiamos, sobre quiénes nos dan las clases, sobre lo que podemos aprender y lo que no. Sobre qué textos tenemos que estudiar y cuáles no. Sobre qué religión “es la correcta”, y nos obligan a estudiarla.<br>
+        Nos gustaría aprender sobre los últimos avances que la ciencia hizo en la medicina, en vez de seguir aprendiendo sobre métodos que involucran rituales ligados a la religión. Esto es incluso en comunión con los principios de la fe: el afán de salvarles la vida a más personas, ofrecerles una mejor calidad de vida a los que parecen enfermedades crónicas o terminales, etc. Y esto se logra utilizando conocimientos científicos modernos, no conocimiento anacrónico y obsoleto.<br>
+        Es preciso actualizar nuestra bibliografía anticuada. En la facultad de derecho de Córdoba dan una materia llamada “Deberes para con los siervos” <a href="#link1">[1]</a>. Creemos que no es pertinente a nuestra realidad que sigamos estudiando ese tipo de contenidos.</p>
+    </section>
+    
+    <section class="main-section" id="Autonomía">
+      <header class="titulo">Autonomía</header>
+      <h3>¿No es mejor que dejemos las decisiones políticas, administrativas y económicas a los que ya están tomándolas desde siempre?</h3>
+      <p>Es verdad que fueron siempre los mismos los que tuvieron ese poder sobre las universidades. Pero eso no es algo necesariamente bueno para la universidad, ya que ellos van a controlarla según sus propios intereses, y su interés es, justamente, perpetuarse en el poder<br>
+        Nuestro interés es el de alcanzar la excelencia. Que nuestras universidades sean las mejores que puedan ser, que tengamos los mejores docentes, maestros, directivos y que los alumnos terminen sus carreras siendo los mejores profesionales. Queremos que las universidades de Argentina y América Latina sean reconocidas mundialmente, y eso no lo vamos a lograr si no tenemos autonomía para decidir sobre nuestro futuro. No lo vamos a tener si nos siguen controlando personas cuyo único interés es permanecer cómodos en sus puestos.<br>
+        Entendemos que conceder la autonomía a las universidades puede ser un paso difícil, y es probable que inicialmente tomemos decisiones equivocadas por nuestra falta de experiencia en puestos de poder, pero creemos que es necesario para lograr la excelencia a largo plazo.</p>
+    </section>
+    
+    <section class="main-section" id="Cogobierno">
+      <header class="titulo">Cogobierno</header>
+      <h3>¿Cómo vamos a darles a los alumnos poder para decidir quiénes serán sus maestros? ¿Qué sentido tiene eso?</h3>
+      <p>En primer lugar, eso no es lo que planteamos. El cogobierno es un sistema que garantiza la participación de -inicialmente- tres claustros: el claustro docente, el claustro de graduados o profesionales, y el claustro de alumnos. Por lo que es erróneo pensar que serán sólo los alumnos los que decidan.<br>
+        Lo que queremos que es que los alumnos participen en esa decisión. Y esto es importante porque nuestro interés como alumnos es tener la mejor educación posible, que los docentes que nos transmitan los conocimientos sean los más competentes para el cargo.<br>
+        <code>“La juventud vive siempre en trance de heroísmo. Es desinteresada, es pura. No ha tenido tiempo aún de contaminarse. No se equivoca nunca en la elección de sus propios maestros. Ante los jóvenes no se hace mérito adulando o comprando. Hay que dejar que ellos mismos elijan sus maestros y directores, seguros de que el acierto ha de coronar sus determinaciones. En adelante solo podrán ser maestros en la futura república universitaria los verdaderos constructores de alma, los creadores de verdad, de belleza y de bien.” [3]</code>
+        Los mismos docentes también desean esto (al menos en parte, los docentes incompetentes que ya tienen un cargo preferirán naturalmente el orden actual de las cosas). Es preferible que se concursen los cargos y no que éstos sigan siendo “heredados” o asignados por autoridades eclesiásticas. Un sacerdote no tiene conocimientos sobre derecho, biología, contabilidad, como para llevar la responsabilidad de decidir quiénes dictarán esas materias. Es lógico que la decisión deba recaer sobre manos más competentes. Por eso es que también exigimos que, además de los alumnos, los propios docentes y los graduados tengan poder de decisión.</p>
+      <img class="centraMe" src="https://i.imgur.com/pWWBSkn.jpg" alt="Composición del Consejo Directivo de la UNL">
+      <p class="centraMe">Composición del Consejo Directivo en la UNL <a href="#link2">[2]</a></p>
+    </section>
+    
+    <section class="main-section" id="Libertad_de_Cátedra">
+      <header class="titulo">Libertad de Cátedra</header>
+      <h3>¿Por qué deberían los docentes ser libres de decidir qué enseñar? ¿Qué garantía tenemos de que nos beneficie semejante cambio?</h3>
+      <p>Hasta ahora, los docentes no pueden decidir sobre lo que enseñan, ni siquiera sobre cómo lo enseñan. Todas las cátedras están viciadas por la doctrina de la Iglesia, como se dijo en el primer punto. Un docente puede no ser católico, pero se ve forzado a enseñar sobre esa religión. Creemos que esto en principio va en contra de la libertad de expresión de los docentes, pero más grave que eso, no permite la modernización de las cátedras.<br>
+        Consideramos que los docentes son quienes deben decidir sobre los temas y bibliografía que utilizan, porque son las personas idóneas para tomar esa decisión. Esto sólo puede beneficiar a los alumnos, ya que implica dejar de lado conocimiento anacrónico, impuesto por el clero, que en muchos casos ni siquiera saben sobre la materia que se dicta.<br>
+        Que los docentes quieran modernizarse o no es un cuestionamiento válido, y estamos convencidos que esto irá de la mano de la autonomía de la Universidad y la formación del cogobierno. De esta manera, los docentes deberán concursar sus cargos y estará en sus intereses mantenerse en la vanguardia del conocimiento científico.</p>
+    </section>
+    
+    <section class="main-section" id="Extensión_y_Ayuda_Social">
+      <header class="titulo">Extensión y Ayuda Social</header>
+      <h3>¿Por qué quieren cambiar la relación de la Universidad con la sociedad? Somos la élite, si nos relacionamos con el resto de la población sólo vamos a perder prestigio.</h3>
+      <p>Este es un pensamiento muy elitista y entendible dado el contexto oligarca en el que hemos vivido por muchos años. A la universidad no acceden muchas personas, somos todos de la clase alta, privilegiados.<br>
+        Sin embargo, creemos firmemente que los ideales de la Universidad Pública y Nacional están completamente apartados de estas nociones elitistas: Debemos servir a la gente. Nuestro conocimiento debe ser para mejorar la sociedad. Creemos que éste es el fin último de los profesionales. El prestigio viene de la mano de cuánto hayamos devuelto a la sociedad, no de cuántos quisieran estar en nuestro lugar. Si no podemos asegurarles a todos el derecho a estudiar, debemos al menos asegurarles el derecho a beneficiarse de nuestro conocimiento.<br>
+        Es preciso para el crecimiento de la Universidad, verse inmersa en la realidad del país. La mejor manera de entender la realidad social y saber qué falta y qué se puede mejorar, es introduciéndose en ella, formando parte íntegra de ella. Consideramos que la Universidad puede enriquecerse mucho de este intercambio.</p>
+    </section>
+    
+    <section class="main-section" id="Extras">
+      <header class="titulo">Extras</header>      
+      <h3 id="rol_de_la_mujer">- ¿Cuál fue el rol de la mujer en la Reforma Universitaria?</h3>
+      <p>Aunque escapa los objetivos planteados para este trabajo de investigación bibliográfica, resulta intersante observar que en ninguna de las imágenes alusivas a la Reforma Universitaria de 1918 aparecen mujeres. Cabe preguntarse, ¿Estuvieron ausentes o fueron invisibilizadas?<br>
+        No aparecen en las imágenes ni firmando ningún papel, sin embargo, aunque invisibles para el registro documental, ahí estaban: en 1918 las mujeres ya llevaban tres décadas en la Universidad y habían logrado importantes avances.<br>
+        Al año siguiente de la Reforma, Julieta Lanteri, médica graduada, se presentó como candidata a Diputada nacional al encontrar un agujero legal, ya que estaba prohibido que las mujeres votaran pero la norma no decía nada sobre que pudieran ser candidatas.<br>
+        Elvira López, la primera graduada de la Facultad de Filosofía y Letras, es exponente de las universitarias que ya entonces se identificaban con el feminismo y se autodenominaban feministas.<br>
+        Se plantea la hipótesis de que las universitarias de la Reforma también pueden haber sido corridas de los reflectores porque:
+        <code>“Las agendas de estas mujeres tenían gran parte de sus actividades fuera del ámbito universitario, tenían que ver con cosas y con mujeres que estaban aún en peores condiciones que ellas.”</code>
+        Otra mujer destacada en 1918 fue Prosperina Paraván, que entonces estudiaba Odontología, una carrera que recién nacía. En diciembre de 1917 las autoridades de la UNC decidieron cerrar el internado del hospital de Clínicas, sitio donde los alumnos del interior tenían hospedaje y comida. Esa fue la chispa que encendió el fuego de la Reforma.<br>
+        Paraván marchó por las calles de Córdoba e hizo frente a la represión policial. Ella formó parte de los que trabajaron en las propuestas de Reformas del plan de estudios de Odontología y de la normalización de su centro de estudiantes.
+        <code>"No eran tiempos fáciles para las mujeres. Los discursos y prácticas sociales vigentes las consideraban seres inferiores, incapaces y susceptibles de estar sometidas a tutela masculina. El Código Civil las obligaba a contar con la autorización del marido para celebrar contratos, lo que resultaba muchas veces un obstáculo para ejercer una profesión. Eran prácticamente consideradas menores de edad de manera perpetua. Sin mencionar que tampoco contaban aún con derechos políticos."</code>
+        A 100 años de la Reforma Universitaria, la mirada retrospectiva arroja un panorama alentador: los movimientos feministas lograron grandes conquistas debido a sus incesantes luchas, en pos de la ampliación de derechos y la igualdad con el varón. De todas maneras aún hay mucho por hacer.
+        <code>La agenda de género en los ámbitos universitarios, así como en muchos otros, todavía tiene enormes pendientes como “la paridad, la conformación y el acceso a los lugares de poder”, así como la legalización del aborto y la lucha contra la violencia de género, “demanda presente en todas las universidades y transversal a todos los claustros”. Una pelea que, tal como menciona Martín,  no dejará de librarse.</code>
+        Puede concluirse que, pese a no haber posado para la cámara, las mujeres no estuvieron ausentes en la Reforma Universitaria. Resulta lógico, después de todo, si algo nos han enseñado las redes sociales que gobiernan nuestros tiempos es que no todo lo que se ve en las fotografías muestra la realidad.<a href="#link4">[4]</a>
+      </p>
+      
+      <h3 id="centenario_de_la_reforma_universitaria">- Centenario de la Reforma Universitaria</h3>
+      <p><i>Mural Centenario de la Reforma Universitaria.</i>
+        <br>        
+        La iniciativa tiene como fin conmemorar esa gesta histórica de la Reforma Universitaria de 1918, coincidente con los 99 años de la Facultad y el comienzo de los festejos del centenario de la Universidad.</p>
+      <iframe class="centraMe" width="560" height="315" src="https://www.youtube.com/embed/cxkxrRf19y0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      
+      <p>
+        <i>Noticias de actualidad</i>
+        <li>Santa Fe celebra el centenario de la Reforma Universitaria.</li>
+        <li>Lanzamiento de convocatorias para emprendedores en FIQ.</li>
+        <li>Estudiantes de la Escuela Industrial visitaron la FIMAQH 2018.</li>
+        <li>Actividades en el Predio UNL-ATE: gimnasia en el agua.</li>
+      </p>
+      
+      <iframe class="centraMe" width="560" height="315" src="https://www.youtube.com/embed/xeNVBq_h73k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <p>
+        <i>A 100 de la Reforma: Historias de Vida</i><br>
+        Una lista de siete videos creada como parte de la conmemoración del Centenario de la Reforma Universitaria, donde estudiantes, egresados e investigadores de la Universidad Nacional del Litoral cuentan sobre su trabajo y su relación con la Universidad.</p>
+      <iframe class="centraMe" width="560" height="315" src="https://www.youtube.com/embed/TmVbFQjf9x4?list=PLyUkC5vDsxtPKcWHZyFdV7QP617Jz1xgF" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <code>"Hombres de una república libre, acabamos de romper la última cadena que en pleno siglo XX nos ataba a la antigua dominación monárquica y monástica. Hemos resulto llamar a todas las cosas por el nombre que tienen. Córdoba se redime. Desde hoy contamos para el país una vergüenza menos y una libertad más. Los dolores que nos quedan son las libertades que nos faltan. Creemos no equivocarnos, las resonancias del corazón nos lo advierten: estamos pisando sobre una revolución, estamos viviendo una hora americana."</code>
+    </section>  
+    
+    <section class="main-section" id="Bibliografía">
+      <header class="titulo">Bibliografía</header>
+      <p>
+      <h3>Referencias:</h3>
+      <a id="link1" href="https://www.youtube.com/watch?v=9LMSehGareo" target="_blank">[1] Algo habrán hecho - Capítulo 10, La reforma de 1918</a>
+      <a id="link2" href="http://www.unl.edu.ar/ingreso/pu/wp-content/uploads/2015/11/Organos-de-cogobierno.pdf" target="_blank">[2] Órganos de cogobierno en la Universidad Nacional del Litoral</a>
+      <a id="link3" href="https://www.unc.edu.ar/sobre-la-unc/manifiesto-liminar" target="_blank">[3] Manifiesto Liminar</a>
+      <a id="link4" href="https://www.cultura.gob.ar/no-salieron-en-las-fotos-pero-ahi-estaban-el-rol-de-la-mujer-en-la-reforma-universitaria_6307/" target="_blank">[4] El rol de la mujer en la Reforma Universitaria. Secretaría de Cultura</a>
+      
+      <h3>Otros recursos consultados:</h3>
+      <a id="link5" href="https://www.unl.edu.ar/noticias/news/view/santa_fe_celebra_el_centenario_de_la_reforma_universitaria" target="_blank">Santa Fe celebra el centenario de la Reforma Universitaria</a>
+      <a id="link6" href="http://www.unidiversidad.com.ar/el-educador-antes-y-despues-de-la-reforma-universitaria" target="_blank">El educador, antes y después de la reforma universitaria</a>
+      <a id="link7" href="https://es.wikipedia.org/wiki/Reforma_Universitaria_de_1918" target="_blank">Entrada de Wikipedia de La Reforma Universitaria</a>
+      <a id="link8" href="http://www.unl.edu.ar/reformauniversitaria/" target="_blank">Reforma Universitaria, UNL</a>
+      <a id="link9" href="https://www.youtube.com/watch?v=84NSg9rD2jk" target="_blank">La Hora Americana - UNL Documentales</a>
+      <a id="link10" href="https://reformistasunl.netlify.com/" target="_blank">Aventura gráfica didáctica “Reformistas”. Museo Histórico UNL y FUL</a>
+      </p>    
+    </section>
+<hr>
+  <p class="creditos">Docente: Natalia Hümöller</p>      
+  <p class="creditos">Autor: <a href="https://www.linkedin.com/in/leonardoschymansky/" target="_blank">Leonardo Schymansky</a></p>
+  <p class="creditos">Fecha de entrega: 15 de Febrero, 2019</p>
+  <p class="creditos">Problemática Universitaria</p>
+  <p class="creditos">Facultad de Ingeniería y Ciencias Hídricas - Universidad Nacional del Litoral</p>
+  </main>
+</div>
+</body>
+</html>
